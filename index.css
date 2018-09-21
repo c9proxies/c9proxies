@@ -1,10 +1,25 @@
-body {
-  background: #111111
+@media screen and (max-width: 600px) {
+  img {
+      width: 100%;
+      height: auto;
+  }  
 }
 
+img {
+    width: 100%;
+    height: auto;
+}  
+
+body {
+  background: black;
+}
+
+
+h1 {
+  color: white;
+}
 .yeezy-text {
   font-family: 'yeezy', serif;
-  color: white;
 }
 
 @font-face {
@@ -33,8 +48,8 @@ footer a {
   background: white;
 }
 
-#price {
-  color: white;
+.description {
+  font-size: 10px;
 }
 
 .select {
