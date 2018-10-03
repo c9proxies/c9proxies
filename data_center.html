@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>c9proxies</title>
+  <meta name="description" content="high speed residential proxies">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <img src="data_Center_proxies.png"></img>
+
+<div style="padding-left: 80px;">
+     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="product">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="AMTZ79M6YY4QS">
+
+    <h1 id="price" class="yeezy-text">Price:</h1>
+    
+    <div>
+      <h1 class="yeezy-text">Quantity</h1>
+
+    <select name="os0" id="quantity" class="select">
+        <option value="25">25</option>
+        <option value="45">50</option>
+        <option value="60">75</option>
+        <option value="70">100</option>
+      </select>
+    </div>
+
+    <input type="hidden" name="currency_code" value="USD">
+
+    <br><br>
+    <button id="submit" name="submit">Add to cart</input>
+  </form>
+  </div>
+
+</body>
+<script>
+function price (value) {
+  document.getElementById('price').innerHTML = "Price: $" + value
+}
+
+function quantity () {
+  quantity = document.getElementById('quantity')
+  value = quantity.value
+
+  price(value)
+}
+
+document.getElementById('quantity').oninput = quantity
+
+quantity()
+</script>
+</html>
